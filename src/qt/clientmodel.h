@@ -13,7 +13,7 @@ class QDateTime;
 class QTimer;
 QT_END_NAMESPACE
 
-/** Model for BitcoinBuck network client. */
+/** Model for Bitcoinbuck network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT

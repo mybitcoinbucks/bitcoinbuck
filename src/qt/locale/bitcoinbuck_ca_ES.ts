@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinBuck</source>
-        <translation>Sobre BitcoinBuck</translation>
+        <source>About Bitcoinbuck</source>
+        <translation>Sobre Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinBuck&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BitcoinBuck&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;Bitcoinbuck&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoinbuck&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BitcoinBuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces BitcoinBuck per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your Bitcoinbuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces Bitcoinbuck per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BitcoinBuck address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça BitcoinBuck</translation>
+        <source>Sign a message to prove you own a Bitcoinbuck address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinBuck address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça BitcoinBuck específica</translation>
+        <source>Verify a message to ensure it was signed with a specified Bitcoinbuck address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça Bitcoinbuck específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BitcoinBuck addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de BitcoinBuck per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your Bitcoinbuck addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de Bitcoinbuck per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>BitcoinBuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinbucks from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinBuck es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus bitcoinbucks de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>Bitcoinbuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinbucks from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoinbuck es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus bitcoinbucks de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -316,7 +316,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitcoinBuckGUI</name>
+    <name>BitcoinbuckGUI</name>
     <message>
         <location filename="../bitcoinbuckgui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinBuck</source>
-        <translation>Mostra informació sobre BitcoinBuck</translation>
+        <source>Show information about Bitcoinbuck</source>
+        <translation>Mostra informació sobre Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,12 +414,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a BitcoinBuck address</source>
-        <translation>Enviar monedes a una adreça BitcoinBuck</translation>
+        <source>Send coins to a Bitcoinbuck address</source>
+        <translation>Enviar monedes a una adreça Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for BitcoinBuck</source>
+        <source>Modify configuration options for Bitcoinbuck</source>
         <translation>Modificar les opcions de configuració per bitcoinbuck</translation>
     </message>
     <message>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>BitcoinBuck</source>
-        <translation>BitcoinBuck</translation>
+        <source>Bitcoinbuck</source>
+        <translation>Bitcoinbuck</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About BitcoinBuck</source>
-        <translation>&amp;Sobre BitcoinBuck</translation>
+        <source>&amp;About Bitcoinbuck</source>
+        <translation>&amp;Sobre Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your BitcoinBuck addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de BitcoinBuck per provar que les poseeixes</translation>
+        <source>Sign messages with your Bitcoinbuck addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de Bitcoinbuck per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BitcoinBuck addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça BitcoinBuck específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoinbuck addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça Bitcoinbuck específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>BitcoinBuck client</source>
-        <translation>Client BitcoinBuck</translation>
+        <source>Bitcoinbuck client</source>
+        <translation>Client Bitcoinbuck</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to BitcoinBuck network</source>
-        <translation><numerusform>%n connexió activa a la xarxa BitcoinBuck</numerusform><numerusform>%n connexions actives a la xarxa BitcoinBuck</numerusform></translation>
+        <source>%n active connection(s) to Bitcoinbuck network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Bitcoinbuck</numerusform><numerusform>%n connexions actives a la xarxa Bitcoinbuck</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça BitcoinBuck invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça Bitcoinbuck invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinbuck.cpp" line="+111"/>
-        <source>A fatal error occurred. BitcoinBuck can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. BitcoinBuck no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. Bitcoinbuck can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. Bitcoinbuck no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinBuck address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça BitcoinBuck valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoinbuck address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça Bitcoinbuck valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>BitcoinBuck-Qt</source>
-        <translation>BitcoinBuck-Qt</translation>
+        <source>Bitcoinbuck-Qt</source>
+        <translation>Bitcoinbuck-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinBuck after logging in to the system.</source>
-        <translation>Iniciar automàticament BitcoinBuck després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start Bitcoinbuck after logging in to the system.</source>
+        <translation>Iniciar automàticament Bitcoinbuck després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinBuck on system login</source>
-        <translation>&amp;Iniciar BitcoinBuck al inici de sessió del sistema.</translation>
+        <source>&amp;Start Bitcoinbuck on system login</source>
+        <translation>&amp;Iniciar Bitcoinbuck al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinBuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de BitcoinBuck al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the Bitcoinbuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de Bitcoinbuck al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BitcoinBuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa BitcoinBuck a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the Bitcoinbuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa Bitcoinbuck a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinBuck.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï BitcoinBuck.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoinbuck.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Bitcoinbuck.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BitcoinBuck addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces BitcoinBuck als llistats de transaccions o no.</translation>
+        <source>Whether to show Bitcoinbuck addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces Bitcoinbuck als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinBuck.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï BitcoinBuck.</translation>
+        <source>This setting will take effect after restarting Bitcoinbuck.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï Bitcoinbuck.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinBuck network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa BitcoinBuck un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoinbuck network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Bitcoinbuck un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinBuck-Qt help message to get a list with possible BitcoinBuck command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de BitcoinBuck-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de BitcoinBuck.</translation>
+        <source>Show the Bitcoinbuck-Qt help message to get a list with possible Bitcoinbuck command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de Bitcoinbuck-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de Bitcoinbuck.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinBuck - Debug window</source>
-        <translation>BitcoinBuck -Finestra de debug</translation>
+        <source>Bitcoinbuck - Debug window</source>
+        <translation>Bitcoinbuck -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinBuck Core</source>
-        <translation>Nucli de BitcoinBuck</translation>
+        <source>Bitcoinbuck Core</source>
+        <translation>Nucli de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinBuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de BitcoinBuck del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the Bitcoinbuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de Bitcoinbuck del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BitcoinBuck RPC console.</source>
-        <translation>Benvingut a la consola RPC de BitcoinBuck</translation>
+        <source>Welcome to the Bitcoinbuck RPC console.</source>
+        <translation>Benvingut a la consola RPC de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinBuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de BitcoinBuck (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoinbuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de Bitcoinbuck (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinBuck address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça BitcoinBuck</translation>
+        <source>Sign the message to prove you own this Bitcoinbuck address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinBuck address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça BitcoinBuck específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoinbuck address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Bitcoinbuck específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinBuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de BitcoinBuck (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoinbuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de Bitcoinbuck (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinBuck signature</source>
-        <translation>Introduïr una clau BitcoinBuck</translation>
+        <source>Enter Bitcoinbuck signature</source>
+        <translation>Introduïr una clau Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoinbuck-core</name>
     <message>
         <location filename="../bitcoinbuckstrings.cpp" line="+94"/>
-        <source>BitcoinBuck version</source>
-        <translation>Versió de BitcoinBuck</translation>
+        <source>Bitcoinbuck version</source>
+        <translation>Versió de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2297,9 +2297,9 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Bitcoinbuck Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=bitcoinbuckrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=bitcoinbuckrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;Bitcoinbuck Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BitcoinBuck is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement BitcoinBuck ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoinbuck is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement Bitcoinbuck ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinBuck will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, BitcoinBuck no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Bitcoinbuck no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de BitcoinBuck per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de Bitcoinbuck per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinBuck</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de BitcoinBuck més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoinbuck</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de Bitcoinbuck més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BitcoinBuck to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia BitcoinBuck per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoinbuck to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia Bitcoinbuck per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BitcoinBuck is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement BitcoinBuck ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoinbuck is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement Bitcoinbuck ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>

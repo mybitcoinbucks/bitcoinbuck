@@ -1,4 +1,4 @@
-// Copyright (c) 2013 BitcoinBuck Developers
+// Copyright (c) 2013 Bitcoinbuck Developers
 
 #ifndef PBKDF2_H
 #define PBKDF2_H

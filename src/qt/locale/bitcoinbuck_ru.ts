@@ -6,18 +6,18 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinBuck</source>
-        <translation>О BitcoinBuck</translation>
+        <source>About Bitcoinbuck</source>
+        <translation>О Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinBuck&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BitcoinBuck&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Bitcoinbuck&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoinbuck&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2012 The BitcoinBuck developers</source>
-        <translation>Все права защищены © 2009-2012 Разработчики BitcoinBuck</translation>
+        <source>Copyright © 2009-2012 The Bitcoinbuck developers</source>
+        <translation>Все права защищены © 2009-2012 Разработчики Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -64,7 +64,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BitcoinBuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Bitcoinbuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -79,8 +79,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BitcoinBuck address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом BitcoinBuck</translation>
+        <source>Sign a message to prove you own a Bitcoinbuck address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinBuck address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом BitcoinBuck</translation>
+        <source>Verify a message to ensure it was signed with a specified Bitcoinbuck address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -252,7 +252,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>BitcoinBuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoinbuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -298,7 +298,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitcoinBuckGUI</name>
+    <name>BitcoinbuckGUI</name>
     <message>
         <location filename="../bitcoinbuckgui.cpp" line="+257"/>
         <source>Sign &amp;message...</source>
@@ -366,8 +366,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinBuck</source>
-        <translation>Показать информацию о BitcoinBuck&apos;е</translation>
+        <source>Show information about Bitcoinbuck</source>
+        <translation>Показать информацию о Bitcoinbuck&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Send coins to a BitcoinBuck address</source>
-        <translation>Отправить монеты на указанный адрес BitcoinBuck</translation>
+        <source>Send coins to a Bitcoinbuck address</source>
+        <translation>Отправить монеты на указанный адрес Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BitcoinBuck</source>
-        <translation>Изменить параметры конфигурации BitcoinBuck</translation>
+        <source>Modify configuration options for Bitcoinbuck</source>
+        <translation>Изменить параметры конфигурации Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -465,8 +465,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-186"/>
-        <source>BitcoinBuck</source>
-        <translation>BitcoinBuck</translation>
+        <source>Bitcoinbuck</source>
+        <translation>Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+168"/>
-        <source>&amp;About BitcoinBuck</source>
-        <translation>&amp;О BitcoinBuck</translation>
+        <source>&amp;About Bitcoinbuck</source>
+        <translation>&amp;О Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -517,12 +517,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BitcoinBuck client</source>
-        <translation>BitcoinBuck клиент</translation>
+        <source>Bitcoinbuck client</source>
+        <translation>Bitcoinbuck клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+69"/>
-        <source>%n active connection(s) to BitcoinBuck network</source>
+        <source>%n active connection(s) to Bitcoinbuck network</source>
         <translation>
             <numerusform>%n активное соединение с сетью</numerusform>
             <numerusform>%n активных соединений с сетью</numerusform>
@@ -627,8 +627,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом BitcoinBuck или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Bitcoinbuck или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinbuck.cpp" line="+109"/>
-        <source>A fatal error occurred. BitcoinBuck can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. BitcoinBuck не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Bitcoinbuck can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Bitcoinbuck не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinBuck address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным BitcoinBuck-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoinbuck address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Bitcoinbuck-адресом.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+419"/>
         <location line="+12"/>
-        <source>BitcoinBuck-Qt</source>
-        <translation>BitcoinBuck-Qt</translation>
+        <source>Bitcoinbuck-Qt</source>
+        <translation>Bitcoinbuck-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinBuck after logging in to the system.</source>
-        <translation>Автоматически запускать BitcoinBuck после входа в систему</translation>
+        <source>Automatically start Bitcoinbuck after logging in to the system.</source>
+        <translation>Автоматически запускать Bitcoinbuck после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinBuck on system login</source>
-        <translation>&amp;Запускать BitcoinBuck при входе в систему</translation>
+        <source>&amp;Start Bitcoinbuck on system login</source>
+        <translation>&amp;Запускать Bitcoinbuck при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinBuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для BitcoinBuck-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Bitcoinbuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Bitcoinbuck-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BitcoinBuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети BitcoinBuck через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the Bitcoinbuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Bitcoinbuck через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinBuck.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска BitcoinBuck.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoinbuck.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Bitcoinbuck.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BitcoinBuck addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса BitcoinBuck в списке транзакций.</translation>
+        <source>Whether to show Bitcoinbuck addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Bitcoinbuck в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -972,8 +972,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinBuck.</source>
-        <translation>Эта настройка вступит в силу после перезапуска BitcoinBuck</translation>
+        <source>This setting will take effect after restarting Bitcoinbuck.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -991,8 +991,8 @@ Address: %4
     <message>
         <location line="+33"/>
         <location line="+183"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinBuck network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью BitcoinBuck после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoinbuck network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Bitcoinbuck после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-141"/>
@@ -1207,8 +1207,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinBuck-Qt help message to get a list with possible BitcoinBuck command-line options.</source>
-        <translation>Показать помощь по BitcoinBuck-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Bitcoinbuck-Qt help message to get a list with possible Bitcoinbuck command-line options.</source>
+        <translation>Показать помощь по Bitcoinbuck-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1227,13 +1227,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinBuck - Debug window</source>
-        <translation>BitcoinBuck - Окно отладки</translation>
+        <source>Bitcoinbuck - Debug window</source>
+        <translation>Bitcoinbuck - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinBuck Core</source>
-        <translation>Ядро BitcoinBuck</translation>
+        <source>Bitcoinbuck Core</source>
+        <translation>Ядро Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1242,8 +1242,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinBuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл BitcoinBuck из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Bitcoinbuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Bitcoinbuck из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1252,8 +1252,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BitcoinBuck RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль BitcoinBuck.</translation>
+        <source>Welcome to the Bitcoinbuck RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Bitcoinbuck.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1436,8 +1436,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinBuck address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите BitcoinBuck-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a Bitcoinbuck address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введите Bitcoinbuck-адрес (например 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
 </context>
 <context>
@@ -1497,8 +1497,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinBuck address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом BitcoinBuck</translation>
+        <source>Sign the message to prove you own this Bitcoinbuck address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1529,8 +1529,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinBuck address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом BitcoinBuck</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoinbuck address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1540,8 +1540,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinBuck address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введите адрес BitcoinBuck (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a Bitcoinbuck address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введите адрес Bitcoinbuck (напр. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1550,8 +1550,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinBuck signature</source>
-        <translation>Введите подпись BitcoinBuck</translation>
+        <source>Enter Bitcoinbuck signature</source>
+        <translation>Введите подпись Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2126,7 +2126,7 @@ Address: %4
     <name>bitcoinbuck-core</name>
     <message>
         <location filename="../bitcoinbuckstrings.cpp" line="+82"/>
-        <source>BitcoinBuck version</source>
+        <source>Bitcoinbuck version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2157,13 +2157,13 @@ Address: %4
     </message>
     <message>
         <location line="+23"/>
-        <source>Specify configuration file (default: BitcoinBuck.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: BitcoinBuck.conf)</translation>
+        <source>Specify configuration file (default: Bitcoinbuck.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: Bitcoinbuck.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: BitcoinBuckd.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: BitcoinBuck.pid)</translation>
+        <source>Specify pid file (default: Bitcoinbuckd.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: Bitcoinbuck.pid)</translation>
     </message>
     <message>
         <location line="-47"/>
@@ -2322,8 +2322,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinBuck will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, BitcoinBuck будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Bitcoinbuck будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -2397,9 +2397,9 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. BitcoinBuck Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. Bitcoinbuck Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2553,13 +2553,13 @@ Address: %4
     </message>
     <message>
         <location line="-131"/>
-        <source>Cannot obtain a lock on data directory %s.  BitcoinBuck is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Bitcoinbuck is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="+57"/>
-        <source>BitcoinBuck</source>
-        <translation>BitcoinBuck</translation>
+        <source>Bitcoinbuck</source>
+        <translation>Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2593,13 +2593,13 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinBuck</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию BitcoinBuck</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoinbuck</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+73"/>
-        <source>Wallet needed to be rewritten: restart BitcoinBuck to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите BitcoinBuck для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoinbuck to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Bitcoinbuck для завершения операции.</translation>
     </message>
     <message>
         <location line="-75"/>
@@ -2668,8 +2668,8 @@ Address: %4
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BitcoinBuck is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, BitcoinBuck уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoinbuck is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Bitcoinbuck уже работает.</translation>
     </message>
     <message>
         <location line="+55"/>

@@ -1149,7 +1149,9 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"", ""},
+    {"142.93.60.164", "142.93.60.164"},
+    {"147.182.179.61", "147.182.179.61"},
+    {NULL, NULL}
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1220,7 +1222,7 @@ void ThreadDNSAddressSeed2(void* parg)
 
 unsigned int pnSeed[] =
 {
-	0x58099DD9
+    0x8e5d3c4a, 0x93b6b33d
 };
 
 void DumpAddresses()
@@ -1727,7 +1729,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     // and enable it by default or not. Try to enable it, if possible.
     if (addrBind.IsIPv6()) {
 #ifdef IPV6_V6ONLY
-        setsockopt(hListenSocket, IPPROTO_IPV6, IPV6_V6ONLY, (void*)&nOne, sizeof(int));
+  //      setsockopt(hListenSocket, IPPROTO_IPV6, IPV6_V6ONLY, (void*)&nOne, sizeof(int));
 #endif
 #ifdef WIN32
         int nProtLevel = 10 /* PROTECTION_LEVEL_UNRESTRICTED */;

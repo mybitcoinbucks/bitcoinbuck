@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The BitcoinBuck developers
+// Copyright (c) 2009-2012 The Bitcoinbuck developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,10 +15,10 @@
 #include <string>
 #include "uint256.h"
 
-const int DEF_PROT=4321;
-const int DEF_RPCPORT=4321;
-const int DEF_TESTNET_PORT=14321;
-const int DEF_TESTNET_RPCPORT=14321;
+const int DEF_PROT=19990;
+const int DEF_RPCPORT=19991;
+const int DEF_TESTNET_PORT=29990;
+const int DEF_TESTNET_RPCPORT=29991;
 
 extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)

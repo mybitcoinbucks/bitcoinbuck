@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2012 The BitcoinBuck Developers
+// Copyright (c) 2009-2012 The Bitcoinbuck Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

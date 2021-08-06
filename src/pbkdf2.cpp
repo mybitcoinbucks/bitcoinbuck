@@ -1,4 +1,4 @@
-// Copyright (c) 2013 BitcoinBuck Developers
+// Copyright (c) 2013 Bitcoinbuck Developers
 
 #include <string.h>
 #include "pbkdf2.h"

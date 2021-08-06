@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinBuck</source>
-        <translation>Pri BitcoinBuck</translation>
+        <source>About Bitcoinbuck</source>
+        <translation>Pri Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinBuck&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BitcoinBuck&lt;/b&gt;-a versio</translation>
+        <source>&lt;b&gt;Bitcoinbuck&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoinbuck&lt;/b&gt;-a versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BitcoinBuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Bitcoinbuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BitcoinBuck address</source>
+        <source>Sign a message to prove you own a Bitcoinbuck address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinBuck address</source>
+        <source>Verify a message to ensure it was signed with a specified Bitcoinbuck address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BitcoinBuck addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Bitcoinbuck addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,7 +270,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>BitcoinBuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinbucks from being stolen by malware infecting your computer.</source>
+        <source>Bitcoinbuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinbucks from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -316,7 +316,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitcoinBuckGUI</name>
+    <name>BitcoinbuckGUI</name>
     <message>
         <location filename="../bitcoinbuckgui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
@@ -369,7 +369,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinBuck</source>
+        <source>Show information about Bitcoinbuck</source>
         <translation>Vidigu informaĵon pri Bitmono</translation>
     </message>
     <message>
@@ -414,12 +414,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a BitcoinBuck address</source>
+        <source>Send coins to a Bitcoinbuck address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for BitcoinBuck</source>
+        <source>Modify configuration options for Bitcoinbuck</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>BitcoinBuck</source>
+        <source>Bitcoinbuck</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About BitcoinBuck</source>
+        <source>&amp;About Bitcoinbuck</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your BitcoinBuck addresses to prove you own them</source>
+        <source>Sign messages with your Bitcoinbuck addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BitcoinBuck addresses</source>
+        <source>Verify messages to ensure they were signed with specified Bitcoinbuck addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,12 +531,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>BitcoinBuck client</source>
+        <source>Bitcoinbuck client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to BitcoinBuck network</source>
+        <source>%n active connection(s) to Bitcoinbuck network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -647,7 +647,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -662,7 +662,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinbuck.cpp" line="+111"/>
-        <source>A fatal error occurred. BitcoinBuck can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Bitcoinbuck can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -728,7 +728,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinBuck address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoinbuck address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>BitcoinBuck-Qt</source>
-        <translation>BitcoinBuck-Qt</translation>
+        <source>Bitcoinbuck-Qt</source>
+        <translation>Bitcoinbuck-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,12 +810,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinBuck after logging in to the system.</source>
+        <source>Automatically start Bitcoinbuck after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinBuck on system login</source>
+        <source>&amp;Start Bitcoinbuck on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -835,7 +835,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinBuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Bitcoinbuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -845,7 +845,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BitcoinBuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Bitcoinbuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -920,7 +920,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinBuck.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoinbuck.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -935,7 +935,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BitcoinBuck addresses in the transaction list or not.</source>
+        <source>Whether to show Bitcoinbuck addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -987,7 +987,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinBuck.</source>
+        <source>This setting will take effect after restarting Bitcoinbuck.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1006,7 +1006,7 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinBuck network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoinbuck network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1210,7 +1210,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinBuck-Qt help message to get a list with possible BitcoinBuck command-line options.</source>
+        <source>Show the Bitcoinbuck-Qt help message to get a list with possible Bitcoinbuck command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1230,12 +1230,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinBuck - Debug window</source>
+        <source>Bitcoinbuck - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinBuck Core</source>
+        <source>Bitcoinbuck Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1245,7 +1245,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinBuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Bitcoinbuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1255,7 +1255,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BitcoinBuck RPC console.</source>
+        <source>Welcome to the Bitcoinbuck RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1439,7 +1439,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinBuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Bitcoinbuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1504,7 +1504,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinBuck address</source>
+        <source>Sign the message to prove you own this Bitcoinbuck address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1540,7 +1540,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinBuck address</source>
+        <source>Verify the message to ensure it was signed with the specified Bitcoinbuck address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1556,7 +1556,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinBuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Bitcoinbuck address (e.g. MNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1566,7 +1566,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinBuck signature</source>
+        <source>Enter Bitcoinbuck signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoinbuck-core</name>
     <message>
         <location filename="../bitcoinbuckstrings.cpp" line="+94"/>
-        <source>BitcoinBuck version</source>
-        <translation>BitcoinBuck-a versio</translation>
+        <source>Bitcoinbuck version</source>
+        <translation>Bitcoinbuck-a versio</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2297,7 +2297,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Bitcoinbuck Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2313,7 +2313,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BitcoinBuck is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Bitcoinbuck is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2358,7 +2358,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinBuck will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2608,7 +2608,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2798,12 +2798,12 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinBuck</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoinbuck</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BitcoinBuck to complete</source>
+        <source>Wallet needed to be rewritten: restart Bitcoinbuck to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2863,7 +2863,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BitcoinBuck is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Bitcoinbuck is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

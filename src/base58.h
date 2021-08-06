@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The BitcoinBuck Developers
+// Copyright (c) 2009-2012 The Bitcoinbuck Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -253,32 +253,32 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded BitcoinBuck addresses.
+/** base58-encoded Bitcoinbuck addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CBitcoinBuckAddress;
-class CBitcoinBuckAddressVisitor : public boost::static_visitor<bool>
+class CBitcoinbuckAddress;
+class CBitcoinbuckAddressVisitor : public boost::static_visitor<bool>
 {
 private:
-    CBitcoinBuckAddress *addr;
+    CBitcoinbuckAddress *addr;
 public:
-    CBitcoinBuckAddressVisitor(CBitcoinBuckAddress *addrIn) : addr(addrIn) { }
+    CBitcoinbuckAddressVisitor(CBitcoinbuckAddress *addrIn) : addr(addrIn) { }
     bool operator()(const CKeyID &id) const;
     bool operator()(const CScriptID &id) const;
     bool operator()(const CNoDestination &no) const;
 };
 
-class CBitcoinBuckAddress : public CBase58Data
+class CBitcoinbuckAddress : public CBase58Data
 {
 public:
     enum
     {
-        PUBKEY_ADDRESS = 27,  // BitcoinBuck: address begin with 'B or C'
+        PUBKEY_ADDRESS = 27,  // Bitcoinbuck: address begin with 'C'
         SCRIPT_ADDRESS = 8, 
-        PUBKEY_ADDRESS_TEST = 86,
+        PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
     };
 
@@ -294,7 +294,7 @@ public:
 
     bool Set(const CTxDestination &dest)
     {
-        return boost::apply_visitor(CBitcoinBuckAddressVisitor(this), dest);
+        return boost::apply_visitor(CBitcoinbuckAddressVisitor(this), dest);
     }
 
     bool IsValid() const
@@ -327,21 +327,21 @@ public:
         return fExpectTestNet == fTestNet && vchData.size() == nExpectedSize;
     }
 
-    CBitcoinBuckAddress()
+    CBitcoinbuckAddress()
     {
     }
 
-    CBitcoinBuckAddress(const CTxDestination &dest)
+    CBitcoinbuckAddress(const CTxDestination &dest)
     {
         Set(dest);
     }
 
-    CBitcoinBuckAddress(const std::string& strAddress)
+    CBitcoinbuckAddress(const std::string& strAddress)
     {
         SetString(strAddress);
     }
 
-    CBitcoinBuckAddress(const char* pszAddress)
+    CBitcoinbuckAddress(const char* pszAddress)
     {
         SetString(pszAddress);
     }
@@ -394,18 +394,18 @@ public:
     }
 };
 
-bool inline CBitcoinBuckAddressVisitor::operator()(const CKeyID &id) const         { return addr->Set(id); }
-bool inline CBitcoinBuckAddressVisitor::operator()(const CScriptID &id) const      { return addr->Set(id); }
-bool inline CBitcoinBuckAddressVisitor::operator()(const CNoDestination &id) const { return false; }
+bool inline CBitcoinbuckAddressVisitor::operator()(const CKeyID &id) const         { return addr->Set(id); }
+bool inline CBitcoinbuckAddressVisitor::operator()(const CScriptID &id) const      { return addr->Set(id); }
+bool inline CBitcoinbuckAddressVisitor::operator()(const CNoDestination &id) const { return false; }
 
 /** A base58-encoded secret key */
-class CBitcoinBuckSecret : public CBase58Data
+class CBitcoinbuckSecret : public CBase58Data
 {
 public:
     void SetSecret(const CSecret& vchSecret, bool fCompressed)
     {
         assert(vchSecret.size() == 32);
-        SetData(128 + (fTestNet ? CBitcoinBuckAddress::PUBKEY_ADDRESS_TEST : CBitcoinBuckAddress::PUBKEY_ADDRESS), &vchSecret[0], vchSecret.size());
+        SetData(128 + (fTestNet ? CBitcoinbuckAddress::PUBKEY_ADDRESS_TEST : CBitcoinbuckAddress::PUBKEY_ADDRESS), &vchSecret[0], vchSecret.size());
         if (fCompressed)
             vchData.push_back(1);
     }
@@ -424,10 +424,10 @@ public:
         bool fExpectTestNet = false;
         switch(nVersion)
         {
-            case (128 + CBitcoinBuckAddress::PUBKEY_ADDRESS):
+            case (128 + CBitcoinbuckAddress::PUBKEY_ADDRESS):
                 break;
 
-            case (128 + CBitcoinBuckAddress::PUBKEY_ADDRESS_TEST):
+            case (128 + CBitcoinbuckAddress::PUBKEY_ADDRESS_TEST):
                 fExpectTestNet = true;
                 break;
 
@@ -447,12 +447,12 @@ public:
         return SetString(strSecret.c_str());
     }
 
-    CBitcoinBuckSecret(const CSecret& vchSecret, bool fCompressed)
+    CBitcoinbuckSecret(const CSecret& vchSecret, bool fCompressed)
     {
         SetSecret(vchSecret, fCompressed);
     }
 
-    CBitcoinBuckSecret()
+    CBitcoinbuckSecret()
     {
     }
 };

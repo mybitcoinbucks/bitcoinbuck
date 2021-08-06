@@ -27,15 +27,15 @@ class QUrl;
 QT_END_NAMESPACE
 
 /**
-  BitcoinBuck GUI main class. This class represents the main window of the BitcoinBuck UI. It communicates with both the client and
+  Bitcoinbuck GUI main class. This class represents the main window of the Bitcoinbuck UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
-class BitcoinBuckGUI : public QMainWindow
+class BitcoinbuckGUI : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit BitcoinBuckGUI(QWidget *parent = 0);
-    ~BitcoinBuckGUI();
+    explicit BitcoinbuckGUI(QWidget *parent = 0);
+    ~BitcoinbuckGUI();
 
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.

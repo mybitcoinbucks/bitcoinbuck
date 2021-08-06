@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinBuck</source>
-        <translation>Informatio de BitcoinBuck</translation>
+        <source>About Bitcoinbuck</source>
+        <translation>Informatio de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinBuck&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BitcoinBuck&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;Bitcoinbuck&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoinbuck&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -66,8 +66,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BitcoinBuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Haec sunt inscriptiones BitcoinBuck tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
+        <source>These are your Bitcoinbuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Haec sunt inscriptiones Bitcoinbuck tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BitcoinBuck address</source>
-        <translation>Signa nuntium ut demonstres inscriptionem BitcoinBuck a te possessam esse</translation>
+        <source>Sign a message to prove you own a Bitcoinbuck address</source>
+        <translation>Signa nuntium ut demonstres inscriptionem Bitcoinbuck a te possessam esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinBuck address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione BitcoinBuck</translation>
+        <source>Verify a message to ensure it was signed with a specified Bitcoinbuck address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specificata inscriptione Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BitcoinBuck addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Bitcoinbuck addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -274,8 +274,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-56"/>
-        <source>BitcoinBuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinbucks from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinBuck iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>Bitcoinbuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoinbucks from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoinbuck iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -320,7 +320,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
 </context>
 <context>
-    <name>BitcoinBuckGUI</name>
+    <name>BitcoinbuckGUI</name>
     <message>
         <location filename="../bitcoinbuckgui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
@@ -373,8 +373,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinBuck</source>
-        <translation>Monstra informationem de BitcoinBuck</translation>
+        <source>Show information about Bitcoinbuck</source>
+        <translation>Monstra informationem de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a BitcoinBuck address</source>
-        <translation>Mitte nummos ad inscriptionem BitcoinBuck</translation>
+        <source>Send coins to a Bitcoinbuck address</source>
+        <translation>Mitte nummos ad inscriptionem Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for BitcoinBuck</source>
-        <translation>Muta configurationis optiones pro BitcoinBuck</translation>
+        <source>Modify configuration options for Bitcoinbuck</source>
+        <translation>Muta configurationis optiones pro Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>BitcoinBuck</source>
-        <translation>BitcoinBuck</translation>
+        <source>Bitcoinbuck</source>
+        <translation>Bitcoinbuck</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About BitcoinBuck</source>
-        <translation>&amp;Informatio de BitcoinBuck</translation>
+        <source>&amp;About Bitcoinbuck</source>
+        <translation>&amp;Informatio de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your BitcoinBuck addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus BitcoinBuck ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Bitcoinbuck addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Bitcoinbuck ut demonstres te eas possidere</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BitcoinBuck addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus BitcoinBuck</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoinbuck addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -535,13 +535,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+47"/>
-        <source>BitcoinBuck client</source>
-        <translation>BitcoinBuck cliens</translation>
+        <source>Bitcoinbuck client</source>
+        <translation>Bitcoinbuck cliens</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to BitcoinBuck network</source>
-        <translation><numerusform>%n activa conexio ad rete BitcoinBuck</numerusform><numerusform>%n activae conexiones ad rete BitcoinBuck</numerusform></translation>
+        <source>%n active connection(s) to Bitcoinbuck network</source>
+        <translation><numerusform>%n activa conexio ad rete Bitcoinbuck</numerusform><numerusform>%n activae conexiones ad rete Bitcoinbuck</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Inscriptio: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters.</source>
-        <translation>URI intellegi non posse!  Huius causa possit inscriptionem BitcoinBuck non validam aut URI parametra maleformata.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters.</source>
+        <translation>URI intellegi non posse!  Huius causa possit inscriptionem Bitcoinbuck non validam aut URI parametra maleformata.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../bitcoinbuck.cpp" line="+111"/>
-        <source>A fatal error occurred. BitcoinBuck can no longer continue safely and will quit.</source>
-        <translation>Error fatalis accidit.  BitcoinBuck nondum pergere tute potest, et exibit.</translation>
+        <source>A fatal error occurred. Bitcoinbuck can no longer continue safely and will quit.</source>
+        <translation>Error fatalis accidit.  Bitcoinbuck nondum pergere tute potest, et exibit.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinBuck address.</source>
-        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio BitcoinBuck est.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoinbuck address.</source>
+        <translation>Inscriptio inserta &quot;%1&quot; non valida inscriptio Bitcoinbuck est.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Inscriptio: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>BitcoinBuck-Qt</source>
-        <translation>BitcoinBuck-Qt</translation>
+        <source>Bitcoinbuck-Qt</source>
+        <translation>Bitcoinbuck-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinBuck after logging in to the system.</source>
-        <translation>Pelle BitcoinBuck per se postquam in systema inire.</translation>
+        <source>Automatically start Bitcoinbuck after logging in to the system.</source>
+        <translation>Pelle Bitcoinbuck per se postquam in systema inire.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinBuck on system login</source>
-        <translation>&amp;Pelle BitcoinBuck cum inire systema</translation>
+        <source>&amp;Start Bitcoinbuck on system login</source>
+        <translation>&amp;Pelle Bitcoinbuck cum inire systema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinBuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis BitcoinBuck in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Bitcoinbuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Bitcoinbuck in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BitcoinBuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecte ad rete BitcoinBuck per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
+        <source>Connect to the Bitcoinbuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecte ad rete Bitcoinbuck per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinBuck.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam BitcoinBuck iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoinbuck.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Bitcoinbuck iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BitcoinBuck addresses in the transaction list or not.</source>
-        <translation>Num monstrare inscriptiones BitcoinBuck in enumeratione transactionum.</translation>
+        <source>Whether to show Bitcoinbuck addresses in the transaction list or not.</source>
+        <translation>Num monstrare inscriptiones Bitcoinbuck in enumeratione transactionum.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Inscriptio: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinBuck.</source>
-        <translation>Haec configuratio effectiva erit postquam BitcoinBuck iterum initiatum erit.</translation>
+        <source>This setting will take effect after restarting Bitcoinbuck.</source>
+        <translation>Haec configuratio effectiva erit postquam Bitcoinbuck iterum initiatum erit.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,8 +1014,8 @@ Inscriptio: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinBuck network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete BitcoinBuck postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoinbuck network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoinbuck postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,7 +1069,7 @@ Inscriptio: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bitcoinbuck: click-to-pay handler</source>
-        <translation>BitcoinBuck incipere non potest: cliccare-ad-pensandum handler</translation>
+        <translation>Bitcoinbuck incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinBuck-Qt help message to get a list with possible BitcoinBuck command-line options.</source>
-        <translation>Monstra nuntium auxilii BitcoinBuck-Qt ut videas enumerationem possibilium optionum BitcoinBuck mandati initiantis.</translation>
+        <source>Show the Bitcoinbuck-Qt help message to get a list with possible Bitcoinbuck command-line options.</source>
+        <translation>Monstra nuntium auxilii Bitcoinbuck-Qt ut videas enumerationem possibilium optionum Bitcoinbuck mandati initiantis.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinBuck - Debug window</source>
-        <translation>BitcoinBuck - Fenestra debug</translation>
+        <source>Bitcoinbuck - Debug window</source>
+        <translation>Bitcoinbuck - Fenestra debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinBuck Core</source>
-        <translation>BitcoinBuck Nucleus</translation>
+        <source>Bitcoinbuck Core</source>
+        <translation>Bitcoinbuck Nucleus</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinBuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de BitcoinBuck debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the Bitcoinbuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Bitcoinbuck debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BitcoinBuck RPC console.</source>
-        <translation>Bene ventio in terminale RPC de BitcoinBuck.</translation>
+        <source>Welcome to the Bitcoinbuck RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Bitcoinbuck.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinBuck address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Insero inscriptionem BitcoinBuck (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoinbuck address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Insero inscriptionem Bitcoinbuck (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinBuck address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem BitcoinBuck a te possessa esse</translation>
+        <source>Sign the message to prove you own this Bitcoinbuck address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Bitcoinbuck a te possessa esse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinBuck address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione BitcoinBuck</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoinbuck address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinBuck address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Insere inscriptionem BitcoinBuck (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bitcoinbuck address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Insere inscriptionem Bitcoinbuck (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinBuck signature</source>
-        <translation>Insere signationem BitcoinBuck</translation>
+        <source>Enter Bitcoinbuck signature</source>
+        <translation>Insere signationem Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2186,8 +2186,8 @@ Inscriptio: %4
     <name>bitcoinbuck-core</name>
     <message>
         <location filename="../bitcoinbuckstrings.cpp" line="+94"/>
-        <source>BitcoinBuck version</source>
-        <translation>Versio de BitcoinBuck</translation>
+        <source>Bitcoinbuck version</source>
+        <translation>Versio de Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2305,7 +2305,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Bitcoinbuck Alert&quot; admin@foo.com
 </source>
         <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
 %s
@@ -2316,7 +2316,7 @@ rpcpassword=%s
 Nomen usoris et tessera eadem esse NON POSSUNT.
 Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
 Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
-exempli gratia: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Notificatio&quot; admin@foo.com
+exempli gratia: alertnotify=echo %%s | mail -s &quot;Bitcoinbuck Notificatio&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Notificatio&quo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BitcoinBuck is probably already running.</source>
-        <translation>Non posse serare datorum indicem %s.  BitcoinBuck probabiliter iam operatur.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bitcoinbuck is probably already running.</source>
+        <translation>Non posse serare datorum indicem %s.  Bitcoinbuck probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Notificatio&quo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinBuck will not work properly.</source>
-        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, BitcoinBuck non proprie fungetur.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.</source>
+        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Bitcoinbuck non proprie fungetur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Notificatio&quo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)</source>
-        <translation>Optiones SSL: (vide vici de BitcoinBuck pro instructionibus SSL configurationis)</translation>
+        <source>SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)</source>
+        <translation>Optiones SSL: (vide vici de Bitcoinbuck pro instructionibus SSL configurationis)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Notificatio&quo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinBuck</source>
-        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio BitcoinBuck</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoinbuck</source>
+        <translation>Error legendi wallet.dat: Cassidili necesse est recentior versio Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BitcoinBuck to complete</source>
-        <translation>Cassidili necesse erat rescribi: Repelle BitcoinBuck ut compleas</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoinbuck to complete</source>
+        <translation>Cassidili necesse erat rescribi: Repelle Bitcoinbuck ut compleas</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;BitcoinBuck Notificatio&quo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BitcoinBuck is probably already running.</source>
-        <translation>Non posse conglutinare ad %s in hoc cumputatro.  BitcoinBuck probabiliter iam operatur.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoinbuck is probably already running.</source>
+        <translation>Non posse conglutinare ad %s in hoc cumputatro.  Bitcoinbuck probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+64"/>

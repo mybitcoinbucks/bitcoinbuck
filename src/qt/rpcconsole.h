@@ -8,7 +8,7 @@ namespace Ui {
 }
 class ClientModel;
 
-/** Local BitcoinBuck RPC console. */
+/** Local Bitcoinbuck RPC console. */
 class RPCConsole: public QDialog
 {
     Q_OBJECT

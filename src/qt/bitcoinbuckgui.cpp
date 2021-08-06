@@ -2,7 +2,7 @@
  * Qt4 bitcoinbuck GUI.
  *
  * W.J. van der Laan 2011-2012
- * The BitcoinBuck Developers 2011-2012
+ * The Bitcoinbuck Developers 2011-2012
  */
 #include "bitcoinbuckgui.h"
 #include "transactiontablemodel.h"
@@ -57,7 +57,7 @@
 
 #include <iostream>
 
-BitcoinBuckGUI::BitcoinBuckGUI(QWidget *parent):
+BitcoinbuckGUI::BitcoinbuckGUI(QWidget *parent):
     QMainWindow(parent),
     clientModel(0),
     walletModel(0),
@@ -69,7 +69,7 @@ BitcoinBuckGUI::BitcoinBuckGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("BitcoinBuck") + " - " + tr("Wallet"));
+    setWindowTitle(tr("BitcoinBuck"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoinbuck"));
     setWindowIcon(QIcon(":icons/bitcoinbuck"));
@@ -179,7 +179,7 @@ BitcoinBuckGUI::BitcoinBuckGUI(QWidget *parent):
     gotoOverviewPage();
 }
 
-BitcoinBuckGUI::~BitcoinBuckGUI()
+BitcoinbuckGUI::~BitcoinbuckGUI()
 {
     if(trayIcon) // Hide tray icon, as deleting will let it linger until quit (on Ubuntu)
         trayIcon->hide();
@@ -188,7 +188,7 @@ BitcoinBuckGUI::~BitcoinBuckGUI()
 #endif
 }
 
-void BitcoinBuckGUI::createActions()
+void BitcoinbuckGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
@@ -199,7 +199,7 @@ void BitcoinBuckGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a BitcoinBuck address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a Bitcoinbuck address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -237,14 +237,14 @@ void BitcoinBuckGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/bitcoinbuck"), tr("&About BitcoinBuck"), this);
-    aboutAction->setToolTip(tr("Show information about BitcoinBuck"));
+    aboutAction = new QAction(QIcon(":/icons/bitcoinbuck"), tr("&About Bitcoinbuck"), this);
+    aboutAction->setToolTip(tr("Show information about Bitcoinbuck"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for BitcoinBuck"));
+    optionsAction->setToolTip(tr("Modify configuration options for Bitcoinbuck"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoinbuck"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -274,7 +274,7 @@ void BitcoinBuckGUI::createActions()
     connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(gotoVerifyMessageTab()));
 }
 
-void BitcoinBuckGUI::createMenuBar()
+void BitcoinbuckGUI::createMenuBar()
 {
 #ifdef Q_OS_MAC
     // Create a decoupled menu bar on Mac which stays even if the window is closed
@@ -306,7 +306,7 @@ void BitcoinBuckGUI::createMenuBar()
     help->addAction(aboutQtAction);
 }
 
-void BitcoinBuckGUI::createToolBars()
+void BitcoinbuckGUI::createToolBars()
 {
     QToolBar *toolbar = addToolBar(tr("Tabs toolbar"));
     toolbar->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
@@ -321,7 +321,7 @@ void BitcoinBuckGUI::createToolBars()
     toolbar2->addAction(exportAction);
 }
 
-void BitcoinBuckGUI::setClientModel(ClientModel *clientModel)
+void BitcoinbuckGUI::setClientModel(ClientModel *clientModel)
 {
     this->clientModel = clientModel;
     if(clientModel)
@@ -338,7 +338,7 @@ void BitcoinBuckGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("BitcoinBuck client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("Bitcoinbuck client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -362,7 +362,7 @@ void BitcoinBuckGUI::setClientModel(ClientModel *clientModel)
     }
 }
 
-void BitcoinBuckGUI::setWalletModel(WalletModel *walletModel)
+void BitcoinbuckGUI::setWalletModel(WalletModel *walletModel)
 {
     this->walletModel = walletModel;
     if(walletModel)
@@ -391,14 +391,14 @@ void BitcoinBuckGUI::setWalletModel(WalletModel *walletModel)
     }
 }
 
-void BitcoinBuckGUI::createTrayIcon()
+void BitcoinbuckGUI::createTrayIcon()
 {
     QMenu *trayIconMenu;
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("BitcoinBuck client"));
+    trayIcon->setToolTip(tr("Bitcoinbuck client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -429,7 +429,7 @@ void BitcoinBuckGUI::createTrayIcon()
 }
 
 #ifndef Q_OS_MAC
-void BitcoinBuckGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
+void BitcoinbuckGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     if(reason == QSystemTrayIcon::Trigger)
     {
@@ -439,7 +439,7 @@ void BitcoinBuckGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 }
 #endif
 
-void BitcoinBuckGUI::optionsClicked()
+void BitcoinbuckGUI::optionsClicked()
 {
     if(!clientModel || !clientModel->getOptionsModel())
         return;
@@ -448,14 +448,14 @@ void BitcoinBuckGUI::optionsClicked()
     dlg.exec();
 }
 
-void BitcoinBuckGUI::aboutClicked()
+void BitcoinbuckGUI::aboutClicked()
 {
     AboutDialog dlg;
     dlg.setModel(clientModel);
     dlg.exec();
 }
 
-void BitcoinBuckGUI::setNumConnections(int count)
+void BitcoinbuckGUI::setNumConnections(int count)
 {
     QString icon;
     switch(count)
@@ -467,10 +467,10 @@ void BitcoinBuckGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to BitcoinBuck network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Bitcoinbuck network", "", count));
 }
 
-void BitcoinBuckGUI::setNumBlocks(int count, int nTotalBlocks)
+void BitcoinbuckGUI::setNumBlocks(int count, int nTotalBlocks)
 {
     // don't show / hide progress bar and its label if we have no connection to the network
     if (!clientModel || clientModel->getNumConnections() == 0)
@@ -577,7 +577,7 @@ void BitcoinBuckGUI::setNumBlocks(int count, int nTotalBlocks)
     progressBar->setToolTip(tooltip);
 }
 
-void BitcoinBuckGUI::error(const QString &title, const QString &message, bool modal)
+void BitcoinbuckGUI::error(const QString &title, const QString &message, bool modal)
 {
     // Report errors from network/worker thread
     if(modal)
@@ -588,7 +588,7 @@ void BitcoinBuckGUI::error(const QString &title, const QString &message, bool mo
     }
 }
 
-void BitcoinBuckGUI::changeEvent(QEvent *e)
+void BitcoinbuckGUI::changeEvent(QEvent *e)
 {
     QMainWindow::changeEvent(e);
 #ifndef Q_OS_MAC // Ignored on Mac
@@ -607,7 +607,7 @@ void BitcoinBuckGUI::changeEvent(QEvent *e)
 #endif
 }
 
-void BitcoinBuckGUI::closeEvent(QCloseEvent *event)
+void BitcoinbuckGUI::closeEvent(QCloseEvent *event)
 {
     if(clientModel)
     {
@@ -622,20 +622,20 @@ void BitcoinBuckGUI::closeEvent(QCloseEvent *event)
     QMainWindow::closeEvent(event);
 }
 
-void BitcoinBuckGUI::askFee(qint64 nFeeRequired, bool *payFee)
+void BitcoinbuckGUI::askFee(qint64 nFeeRequired, bool *payFee)
 {
     QString strMessage =
         tr("This transaction is over the size limit.  You can still send it for a fee of %1, "
           "which goes to the nodes that process your transaction and helps to support the network.  "
           "Do you want to pay the fee?").arg(
-                BitcoinBuckUnits::formatWithUnit(BitcoinBuckUnits::BTC, nFeeRequired));
+                BitcoinbuckUnits::formatWithUnit(BitcoinbuckUnits::BTC, nFeeRequired));
     QMessageBox::StandardButton retval = QMessageBox::question(
           this, tr("Confirm transaction fee"), strMessage,
           QMessageBox::Yes|QMessageBox::Cancel, QMessageBox::Yes);
     *payFee = (retval == QMessageBox::Yes);
 }
 
-void BitcoinBuckGUI::incomingTransaction(const QModelIndex & parent, int start, int end)
+void BitcoinbuckGUI::incomingTransaction(const QModelIndex & parent, int start, int end)
 {
     if(!walletModel || !clientModel)
         return;
@@ -664,13 +664,13 @@ void BitcoinBuckGUI::incomingTransaction(const QModelIndex & parent, int start, 
                                  "Type: %3\n"
                                  "Address: %4\n")
                               .arg(date)
-                              .arg(BitcoinBuckUnits::formatWithUnit(walletModel->getOptionsModel()->getDisplayUnit(), amount, true))
+                              .arg(BitcoinbuckUnits::formatWithUnit(walletModel->getOptionsModel()->getDisplayUnit(), amount, true))
                               .arg(type)
                               .arg(address), icon);
     }
 }
 
-void BitcoinBuckGUI::gotoOverviewPage()
+void BitcoinbuckGUI::gotoOverviewPage()
 {
     overviewAction->setChecked(true);
     centralWidget->setCurrentWidget(overviewPage);
@@ -679,7 +679,7 @@ void BitcoinBuckGUI::gotoOverviewPage()
     disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
 
-void BitcoinBuckGUI::gotoHistoryPage()
+void BitcoinbuckGUI::gotoHistoryPage()
 {
     historyAction->setChecked(true);
     centralWidget->setCurrentWidget(transactionsPage);
@@ -689,7 +689,7 @@ void BitcoinBuckGUI::gotoHistoryPage()
     connect(exportAction, SIGNAL(triggered()), transactionView, SLOT(exportClicked()));
 }
 
-void BitcoinBuckGUI::gotoAddressBookPage()
+void BitcoinbuckGUI::gotoAddressBookPage()
 {
     addressBookAction->setChecked(true);
     centralWidget->setCurrentWidget(addressBookPage);
@@ -699,7 +699,7 @@ void BitcoinBuckGUI::gotoAddressBookPage()
     connect(exportAction, SIGNAL(triggered()), addressBookPage, SLOT(exportClicked()));
 }
 
-void BitcoinBuckGUI::gotoReceiveCoinsPage()
+void BitcoinbuckGUI::gotoReceiveCoinsPage()
 {
     receiveCoinsAction->setChecked(true);
     centralWidget->setCurrentWidget(receiveCoinsPage);
@@ -709,7 +709,7 @@ void BitcoinBuckGUI::gotoReceiveCoinsPage()
     connect(exportAction, SIGNAL(triggered()), receiveCoinsPage, SLOT(exportClicked()));
 }
 
-void BitcoinBuckGUI::gotoSendCoinsPage()
+void BitcoinbuckGUI::gotoSendCoinsPage()
 {
     sendCoinsAction->setChecked(true);
     centralWidget->setCurrentWidget(sendCoinsPage);
@@ -718,7 +718,7 @@ void BitcoinBuckGUI::gotoSendCoinsPage()
     disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
 
-void BitcoinBuckGUI::gotoSignMessageTab(QString addr)
+void BitcoinbuckGUI::gotoSignMessageTab(QString addr)
 {
     // call show() in showTab_SM()
     signVerifyMessageDialog->showTab_SM(true);
@@ -727,7 +727,7 @@ void BitcoinBuckGUI::gotoSignMessageTab(QString addr)
         signVerifyMessageDialog->setAddress_SM(addr);
 }
 
-void BitcoinBuckGUI::gotoVerifyMessageTab(QString addr)
+void BitcoinbuckGUI::gotoVerifyMessageTab(QString addr)
 {
     // call show() in showTab_VM()
     signVerifyMessageDialog->showTab_VM(true);
@@ -736,14 +736,14 @@ void BitcoinBuckGUI::gotoVerifyMessageTab(QString addr)
         signVerifyMessageDialog->setAddress_VM(addr);
 }
 
-void BitcoinBuckGUI::dragEnterEvent(QDragEnterEvent *event)
+void BitcoinbuckGUI::dragEnterEvent(QDragEnterEvent *event)
 {
     // Accept only URIs
     if(event->mimeData()->hasUrls())
         event->acceptProposedAction();
 }
 
-void BitcoinBuckGUI::dropEvent(QDropEvent *event)
+void BitcoinbuckGUI::dropEvent(QDropEvent *event)
 {
     if(event->mimeData()->hasUrls())
     {
@@ -759,13 +759,13 @@ void BitcoinBuckGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
 }
 
-void BitcoinBuckGUI::handleURI(QString strURI)
+void BitcoinbuckGUI::handleURI(QString strURI)
 {
     // URI has to be valid
     if (sendCoinsPage->handleURI(strURI))
@@ -774,10 +774,10 @@ void BitcoinBuckGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters."));
 }
 
-void BitcoinBuckGUI::setEncryptionStatus(int status)
+void BitcoinbuckGUI::setEncryptionStatus(int status)
 {
     switch(status)
     {
@@ -806,7 +806,7 @@ void BitcoinBuckGUI::setEncryptionStatus(int status)
     }
 }
 
-void BitcoinBuckGUI::encryptWallet(bool status)
+void BitcoinbuckGUI::encryptWallet(bool status)
 {
     if(!walletModel)
         return;
@@ -818,7 +818,7 @@ void BitcoinBuckGUI::encryptWallet(bool status)
     setEncryptionStatus(walletModel->getEncryptionStatus());
 }
 
-void BitcoinBuckGUI::backupWallet()
+void BitcoinbuckGUI::backupWallet()
 {
     QString saveDir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
     QString filename = QFileDialog::getSaveFileName(this, tr("Backup Wallet"), saveDir, tr("Wallet Data (*.dat)"));
@@ -829,14 +829,14 @@ void BitcoinBuckGUI::backupWallet()
     }
 }
 
-void BitcoinBuckGUI::changePassphrase()
+void BitcoinbuckGUI::changePassphrase()
 {
     AskPassphraseDialog dlg(AskPassphraseDialog::ChangePass, this);
     dlg.setModel(walletModel);
     dlg.exec();
 }
 
-void BitcoinBuckGUI::unlockWallet()
+void BitcoinbuckGUI::unlockWallet()
 {
     if(!walletModel)
         return;
@@ -849,7 +849,7 @@ void BitcoinBuckGUI::unlockWallet()
     }
 }
 
-void BitcoinBuckGUI::showNormalIfMinimized(bool fToggleHidden)
+void BitcoinbuckGUI::showNormalIfMinimized(bool fToggleHidden)
 {
     // activateWindow() (sometimes) helps with keyboard focus on Windows
     if (isHidden())
@@ -871,7 +871,7 @@ void BitcoinBuckGUI::showNormalIfMinimized(bool fToggleHidden)
         hide();
 }
 
-void BitcoinBuckGUI::toggleHidden()
+void BitcoinbuckGUI::toggleHidden()
 {
     showNormalIfMinimized(true);
 }

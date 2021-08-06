@@ -13,12 +13,12 @@
   - '0' and 'O' to 'o'
 */
 
-BitcoinBuckAddressValidator::BitcoinBuckAddressValidator(QObject *parent) :
+BitcoinbuckAddressValidator::BitcoinbuckAddressValidator(QObject *parent) :
     QValidator(parent)
 {
 }
 
-QValidator::State BitcoinBuckAddressValidator::validate(QString &input, int &pos) const
+QValidator::State BitcoinbuckAddressValidator::validate(QString &input, int &pos) const
 {
     // Correction
     for(int idx=0; idx<input.size();)

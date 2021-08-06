@@ -1,4 +1,4 @@
-// Copyright (c) 2012 The BitcoinBuck developers
+// Copyright (c) 2012 The Bitcoinbuck developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include <string>
@@ -8,10 +8,10 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both bitcoinbuckd and bitcoinbuck-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("BitcoinBuck");
+const std::string CLIENT_NAME("Bitcoinbuck");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-cmc"
+#define CLIENT_VERSION_SUFFIX   "-bib"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.

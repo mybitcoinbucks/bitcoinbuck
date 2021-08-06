@@ -1,14 +1,14 @@
 Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=174
-Upstream-Name: BitcoinBuck
+Upstream-Name: Bitcoinbuck
 Upstream-Contact: Satoshi Nakamoto <satoshin@gmx.com>
  irc://#bitcoinbuck@freenode.net
 Source: http://sourceforge.net/projects/bitcoinbuck/files/
  https://github.com/bitcoinbuck/bitcoinbuck
 
 Files: *
-Copyright: 2009-2012, BitcoinBuck Developers
+Copyright: 2009-2012, Bitcoinbuck Developers
 License: Expat
-Comment: The BitcoinBuck Developers encompasses the current developers listed on bitcoinbuck.org,
+Comment: The Bitcoinbuck Developers encompasses the current developers listed on bitcoinbuck.info,
          as well as the numerous contributors to the project.
 
 Files: src/json/*

@@ -61,7 +61,7 @@ public:
             LOCK(wallet->cs_wallet);
             BOOST_FOREACH(const PAIRTYPE(CTxDestination, std::string)& item, wallet->mapAddressBook)
             {
-                const CBitcoinBuckAddress& address = item.first;
+                const CBitcoinbuckAddress& address = item.first;
                 const std::string& strName = item.second;
                 bool fMine = IsMine(*wallet, address.Get());
                 cachedAddressTable.append(AddressTableEntry(fMine ? AddressTableEntry::Receiving : AddressTableEntry::Sending,
@@ -221,7 +221,7 @@ bool AddressTableModel::setData(const QModelIndex & index, const QVariant & valu
         switch(index.column())
         {
         case Label:
-            wallet->SetAddressBookName(CBitcoinBuckAddress(rec->address.toStdString()).Get(), value.toString().toStdString());
+            wallet->SetAddressBookName(CBitcoinbuckAddress(rec->address.toStdString()).Get(), value.toString().toStdString());
             rec->label = value.toString();
             break;
         case Address:
@@ -237,9 +237,9 @@ bool AddressTableModel::setData(const QModelIndex & index, const QVariant & valu
                 {
                     LOCK(wallet->cs_wallet);
                     // Remove old entry
-                    wallet->DelAddressBookName(CBitcoinBuckAddress(rec->address.toStdString()).Get());
+                    wallet->DelAddressBookName(CBitcoinbuckAddress(rec->address.toStdString()).Get());
                     // Add new entry with new address
-                    wallet->SetAddressBookName(CBitcoinBuckAddress(value.toString().toStdString()).Get(), rec->label.toStdString());
+                    wallet->SetAddressBookName(CBitcoinbuckAddress(value.toString().toStdString()).Get(), rec->label.toStdString());
                 }
             }
             break;
@@ -295,7 +295,7 @@ QModelIndex AddressTableModel::index(int row, int column, const QModelIndex & pa
 
 void AddressTableModel::updateEntry(const QString &address, const QString &label, bool isMine, int status)
 {
-    // Update address book model from BitcoinBuck core
+    // Update address book model from Bitcoinbuck core
     priv->updateEntry(address, label, isMine, status);
 }
 
@@ -316,7 +316,7 @@ QString AddressTableModel::addRow(const QString &type, const QString &label, con
         // Check for duplicate addresses
         {
             LOCK(wallet->cs_wallet);
-            if(wallet->mapAddressBook.count(CBitcoinBuckAddress(strAddress).Get()))
+            if(wallet->mapAddressBook.count(CBitcoinbuckAddress(strAddress).Get()))
             {
                 editStatus = DUPLICATE_ADDRESS;
                 return QString();
@@ -339,7 +339,7 @@ QString AddressTableModel::addRow(const QString &type, const QString &label, con
             editStatus = KEY_GENERATION_FAILURE;
             return QString();
         }
-        strAddress = CBitcoinBuckAddress(newKey.GetID()).ToString();
+        strAddress = CBitcoinbuckAddress(newKey.GetID()).ToString();
     }
     else
     {
@@ -348,7 +348,7 @@ QString AddressTableModel::addRow(const QString &type, const QString &label, con
     // Add entry
     {
         LOCK(wallet->cs_wallet);
-        wallet->SetAddressBookName(CBitcoinBuckAddress(strAddress).Get(), strLabel);
+        wallet->SetAddressBookName(CBitcoinbuckAddress(strAddress).Get(), strLabel);
     }
     return QString::fromStdString(strAddress);
 }
@@ -365,7 +365,7 @@ bool AddressTableModel::removeRows(int row, int count, const QModelIndex & paren
     }
     {
         LOCK(wallet->cs_wallet);
-        wallet->DelAddressBookName(CBitcoinBuckAddress(rec->address.toStdString()).Get());
+        wallet->DelAddressBookName(CBitcoinbuckAddress(rec->address.toStdString()).Get());
     }
     return true;
 }
@@ -376,7 +376,7 @@ QString AddressTableModel::labelForAddress(const QString &address) const
 {
     {
         LOCK(wallet->cs_wallet);
-        CBitcoinBuckAddress address_parsed(address.toStdString());
+        CBitcoinbuckAddress address_parsed(address.toStdString());
         std::map<CTxDestination, std::string>::iterator mi = wallet->mapAddressBook.find(address_parsed.Get());
         if (mi != wallet->mapAddressBook.end())
         {

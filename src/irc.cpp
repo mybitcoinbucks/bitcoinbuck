@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The BitcoinBuck developers
+// Copyright (c) 2009-2012 The Bitcoinbuck developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -306,16 +306,16 @@ void ThreadIRCSeed2(void* parg)
         }
 
         if (fTestNet) {
-            Send(hSocket, "JOIN #BitcoinBuckTEST2\r");
-            Send(hSocket, "WHO #BitcoinBuckTEST2\r");
+            Send(hSocket, "JOIN #BitcoinbuckTEST2\r");
+            Send(hSocket, "WHO #BitcoinbuckTEST2\r");
         } else {
-            // randomly join #BitcoinBuck00-#BitcoinBuck05
+            // randomly join #Bitcoinbuck00-#Bitcoinbuck05
             // int channel_number = GetRandInt(5);
 
             // Channel number is always 0 for initial release
             int channel_number = 0;
-            Send(hSocket, strprintf("JOIN #BitcoinBuck%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #BitcoinBuck%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("JOIN #Bitcoinbuck%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #Bitcoinbuck%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

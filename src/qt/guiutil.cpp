@@ -61,8 +61,8 @@ QFont bitcoinbuckAddressFont()
 
 void setupAddressWidget(QLineEdit *widget, QWidget *parent)
 {
-    widget->setMaxLength(BitcoinBuckAddressValidator::MaxAddressLength);
-    widget->setValidator(new BitcoinBuckAddressValidator(parent));
+    widget->setMaxLength(BitcoinbuckAddressValidator::MaxAddressLength);
+    widget->setValidator(new BitcoinbuckAddressValidator(parent));
     widget->setFont(bitcoinbuckAddressFont());
 }
 
@@ -75,7 +75,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
     widget->setAlignment(Qt::AlignRight|Qt::AlignVCenter);
 }
 
-bool parseBitcoinBuckURI(const QUrl &uri, SendCoinsRecipient *out)
+bool parseBitcoinbuckURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     if(uri.scheme() != QString("bitcoinbuck"))
         return false;
@@ -102,7 +102,7 @@ bool parseBitcoinBuckURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!BitcoinBuckUnits::parse(BitcoinBuckUnits::BTC, i->second, &rv.amount))
+                if(!BitcoinbuckUnits::parse(BitcoinbuckUnits::BTC, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -120,7 +120,7 @@ bool parseBitcoinBuckURI(const QUrl &uri, SendCoinsRecipient *out)
     return true;
 }
 
-bool parseBitcoinBuckURI(QString uri, SendCoinsRecipient *out)
+bool parseBitcoinbuckURI(QString uri, SendCoinsRecipient *out)
 {
     // Convert bitcoinbuck:// to bitcoinbuck:
     //
@@ -131,7 +131,7 @@ bool parseBitcoinBuckURI(QString uri, SendCoinsRecipient *out)
         uri.replace(0, 10, "bitcoinbuck:");
     }
     QUrl uriInstance(uri);
-    return parseBitcoinBuckURI(uriInstance, out);
+    return parseBitcoinbuckURI(uriInstance, out);
 }
 
 QString HtmlEscape(const QString& str, bool fMultiLine)
@@ -272,12 +272,12 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "BitcoinBuck.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Bitcoinbuck.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for BitcoinBuck.lnk
+    // check for Bitcoinbuck.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -354,7 +354,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "BitcoinBuck.desktop";
+    return GetAutostartDir() / "Bitcoinbuck.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -395,7 +395,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoinbuck.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=BitcoinBuck\n";
+        optionFile << "Name=Bitcoinbuck\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -416,10 +416,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("BitcoinBuck-Qt") + " " + tr("version") + " " +
+    header = tr("Bitcoinbuck-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  BitcoinBuck-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  Bitcoinbuck-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -428,7 +428,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("BitcoinBuck-Qt"));
+    setWindowTitle(tr("Bitcoinbuck-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

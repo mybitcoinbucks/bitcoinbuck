@@ -4,15 +4,15 @@
 #include <QString>
 #include <QAbstractListModel>
 
-/** BitcoinBuck unit definitions. Encapsulates parsing and formatting
+/** Bitcoinbuck unit definitions. Encapsulates parsing and formatting
    and serves as list model for drop-down selection boxes.
 */
-class BitcoinBuckUnits: public QAbstractListModel
+class BitcoinbuckUnits: public QAbstractListModel
 {
 public:
-    explicit BitcoinBuckUnits(QObject *parent);
+    explicit BitcoinbuckUnits(QObject *parent);
 
-    /** BitcoinBuck units.
+    /** Bitcoinbuck units.
       @note Source: https://en.bitcoinbuck.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
@@ -59,8 +59,8 @@ public:
     QVariant data(const QModelIndex &index, int role) const;
     ///@}
 private:
-    QList<BitcoinBuckUnits::Unit> unitlist;
+    QList<BitcoinbuckUnits::Unit> unitlist;
 };
-typedef BitcoinBuckUnits::Unit BitcoinBuckUnit;
+typedef BitcoinbuckUnits::Unit BitcoinbuckUnit;
 
 #endif // BITCOINBUCKUNITS_H

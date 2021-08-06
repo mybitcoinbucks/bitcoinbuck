@@ -1,4 +1,4 @@
-Copyright (c) 2009-2012 BitcoinBuck Developers
+Copyright (c) 2009-2012 Bitcoinbuck Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -16,7 +16,7 @@ To Build
 cd src/
 make -f makefile.unix            # Headless bitcoinbuck
 
-See readme-qt.rst for instructions on building BitcoinBuck QT,
+See readme-qt.rst for instructions on building Bitcoinbuck QT,
 the graphical bitcoinbuck.
 
 Dependencies
@@ -75,7 +75,7 @@ If using Boost 1.37, append -mt to the boost libraries in the makefile.
 Dependency Build Instructions: Gentoo
 -------------------------------------
 
-Note: If you just want to install bitcoinbuckd on Gentoo, you can add the BitcoinBuck
+Note: If you just want to install bitcoinbuckd on Gentoo, you can add the Bitcoinbuck
       overlay and use your package manager:
           layman -a bitcoinbuck && emerge bitcoinbuckd
 

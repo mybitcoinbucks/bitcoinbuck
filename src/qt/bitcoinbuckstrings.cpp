@@ -24,7 +24,7 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
 "An error occurred while setting up the RPC port %u for listening on IPv6, "
 "falling back to IPv4: %s"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
-"Cannot obtain a lock on data directory %s.  BitcoinBuck is probably already "
+"Cannot obtain a lock on data directory %s.  Bitcoinbuck is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
 "Detach block and address databases. Increases shutdown time (default: 0)"),
@@ -52,13 +52,13 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
 "Set maximum size of high-priority/low-fee transactions in bytes (default: "
 "27000)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
-"Unable to bind to %s on this computer. BitcoinBuck is probably already running."),
+"Unable to bind to %s on this computer. Bitcoinbuck is probably already running."),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong BitcoinBuck will not work properly."),
+"your clock is wrong Bitcoinbuck will not work properly."),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
@@ -93,7 +93,7 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", "Done loading"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error loading blkindex.dat"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error loading wallet.dat: Wallet requires newer version of BitcoinBuck"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error loading wallet.dat: Wallet requires newer version of Bitcoinbuck"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error: Transaction creation failed  "),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Error: Wallet locked, unable to create transaction  "),
@@ -123,8 +123,8 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", "Loading wallet..."),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Maintain at most <n> connections to peers (default: 125)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "BitcoinBuck version"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "BitcoinBuck"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Bitcoinbuck version"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Bitcoinbuck"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Only connect to nodes in network <net> (IPv4, IPv6 or Tor)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Options:"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Output extra debugging information. Implies all other -debug* options"),
@@ -134,9 +134,9 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", "Prepend debug output with timestamp"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Rescan the block chain for missing wallet transactions"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Rescanning..."),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Select the version of socks proxy to use (4-5, default: 5)"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "Send command to -server or BitcoinBuckd"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Send command to -server or Bitcoinbuckd"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Send trace/debug info to debugger"),
@@ -149,10 +149,10 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", "Set key pool size to <n> (default: 100)")
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Set maximum block size in bytes (default: 250000)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Set minimum block size in bytes (default: 0)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify configuration file (default: BitcoinBuck.conf)"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify configuration file (default: Bitcoinbuck.conf)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify connection timeout in milliseconds (default: 5000)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify pid file (default: BitcoinBuckd.pid)"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify pid file (default: Bitcoinbuckd.pid)"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "This help message"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Threshold for disconnecting misbehaving peers (default: 100)"),
@@ -170,7 +170,7 @@ QT_TRANSLATE_NOOP("bitcoinbuck-core", "Use proxy to reach tor hidden services (d
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Use the test network"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Verifying database integrity..."),
-QT_TRANSLATE_NOOP("bitcoinbuck-core", "Wallet needed to be rewritten: restart BitcoinBuck to complete"),
+QT_TRANSLATE_NOOP("bitcoinbuck-core", "Wallet needed to be rewritten: restart Bitcoinbuck to complete"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Warning: Disk space is low!"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "Warning: This version is obsolete, upgrade required!"),
 QT_TRANSLATE_NOOP("bitcoinbuck-core", "wallet.dat corrupt, salvage failed"),

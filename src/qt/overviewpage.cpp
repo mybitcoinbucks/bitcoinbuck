@@ -19,7 +19,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinBuckUnits::BTC)
+    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinbuckUnits::BTC)
     {
 
     }
@@ -66,7 +66,7 @@ public:
             foreground = option.palette.color(QPalette::Text);
         }
         painter->setPen(foreground);
-        QString amountText = BitcoinBuckUnits::formatWithUnit(unit, amount, true);
+        QString amountText = BitcoinbuckUnits::formatWithUnit(unit, amount, true);
         if(!confirmed)
         {
             amountText = QString("[") + amountText + QString("]");
@@ -115,7 +115,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
 
     QPalette  p;
     p.setColor(QPalette::WindowText,Qt::red);
-    ui->label_BitcoinBuck_Intro->setPalette(p);
+    ui->label_Bitcoinbuck_Intro->setPalette(p);
 
 
     // start with displaying the "out of sync" warnings
@@ -140,10 +140,10 @@ void OverviewPage::setBalance(qint64 balance, qint64 stake, qint64 unconfirmedBa
     currentStake = stake;
     currentUnconfirmedBalance = unconfirmedBalance;
     currentImmatureBalance = immatureBalance;
-    ui->labelBalance->setText(BitcoinBuckUnits::formatWithUnit(unit, balance));
-    ui->labelStake->setText(BitcoinBuckUnits::formatWithUnit(unit, stake));
-    ui->labelUnconfirmed->setText(BitcoinBuckUnits::formatWithUnit(unit, unconfirmedBalance));
-    ui->labelImmature->setText(BitcoinBuckUnits::formatWithUnit(unit, immatureBalance));
+    ui->labelBalance->setText(BitcoinbuckUnits::formatWithUnit(unit, balance));
+    ui->labelStake->setText(BitcoinbuckUnits::formatWithUnit(unit, stake));
+    ui->labelUnconfirmed->setText(BitcoinbuckUnits::formatWithUnit(unit, unconfirmedBalance));
+    ui->labelImmature->setText(BitcoinbuckUnits::formatWithUnit(unit, immatureBalance));
 
     // only show immature (newly mined) balance if it's non-zero, so as not to complicate things
     // for the non-mining users

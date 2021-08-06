@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The BitcoinBuck developers
+// Copyright (c) 2009-2012 The Bitcoinbuck developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -183,12 +183,12 @@ Value stop(const Array& params, bool fHelp)
         throw runtime_error(
             "stop <detach>\n"
             "<detach> is true or false to detach the database or not for this stop only\n"
-            "Stop BitcoinBuck server (and possibly override the detachdb config value).");
+            "Stop Bitcoinbuck server (and possibly override the detachdb config value).");
     // Shutdown will take long enough that the response should get back
     if (params.size() > 0)
         bitdb.SetDetach(params[0].get_bool());
     StartShutdown();
-    return "BitcoinBuck server stopping";
+    return "Bitcoinbuck server stopping";
 }
 
 
@@ -300,7 +300,7 @@ string HTTPPost(const string& strMsg, const map<string,string>& mapRequestHeader
 {
     ostringstream s;
     s << "POST / HTTP/1.1\r\n"
-      << "User-Agent: BitcoinBuck-json-rpc/" << FormatFullVersion() << "\r\n"
+      << "User-Agent: Bitcoinbuck-json-rpc/" << FormatFullVersion() << "\r\n"
       << "Host: 127.0.0.1\r\n"
       << "Content-Type: application/json\r\n"
       << "Content-Length: " << strMsg.size() << "\r\n"
@@ -331,13 +331,13 @@ static string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
     if (nStatus == HTTP_UNAUTHORIZED)
         return strprintf("HTTP/1.0 401 Authorization Required\r\n"
             "Date: %s\r\n"
-            "Server: BitcoinBuck-json-rpc/%s\r\n"
+            "Server: Bitcoinbuck-json-rpc/%s\r\n"
             "WWW-Authenticate: Basic realm=\"jsonrpc\"\r\n"
             "Content-Type: text/html\r\n"
             "Content-Length: 296\r\n"
             "\r\n"
             "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\r\n"
-            "\"http://www.w3.org/TR/1999/REC-html401-4321224/loose.dtd\">\r\n"
+            "\"http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd\">\r\n"
             "<HTML>\r\n"
             "<HEAD>\r\n"
             "<TITLE>Error</TITLE>\r\n"
@@ -358,7 +358,7 @@ static string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
             "Connection: %s\r\n"
             "Content-Length: %"PRIszu"\r\n"
             "Content-Type: application/json\r\n"
-            "Server: BitcoinBuck-json-rpc/%s\r\n"
+            "Server: Bitcoinbuck-json-rpc/%s\r\n"
             "\r\n"
             "%s",
         nStatus,
@@ -456,7 +456,7 @@ bool HTTPAuthorized(map<string, string>& mapHeaders)
 }
 
 //
-// JSON-RPC protocol.  BitcoinBuck speaks version 1.0 for maximum compatibility,
+// JSON-RPC protocol.  Bitcoinbuck speaks version 1.0 for maximum compatibility,
 // but uses JSON-RPC 1.1/2.0 standards for parts of the 1.0 standard that were
 // unspecified (HTTP errors and contents of 'error').
 //
@@ -732,7 +732,7 @@ void ThreadRPCServer2(void* parg)
     {
         unsigned char rand_pwd[32];
         RAND_bytes(rand_pwd, 32);
-        string strWhatAmI = "To use BitcoinBuckd";
+        string strWhatAmI = "To use Bitcoinbuckd";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
         else if (mapArgs.count("-daemon"))

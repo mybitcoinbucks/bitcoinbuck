@@ -6,17 +6,17 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinBuck</source>
+        <source>About Bitcoinbuck</source>
         <translation>关于宇宙币</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinBuck&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Bitcoinbuck&lt;/b&gt; version</source>
         <translation>&lt;b&gt;宇宙币&lt;/b&gt;版本</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2013 The BitcoinBuck developers</source>
+        <source>Copyright © 2013 The Bitcoinbuck developers</source>
         <translation>版权所有 © 2013 宇宙币开发团队</translation>
     </message>
     <message>
@@ -66,7 +66,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BitcoinBuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Bitcoinbuck addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>这是你接收付款的宇宙币地址。你可以给每个发送者一个不同的地址，从而能够确定是谁向你发送了货币。</translation>
     </message>
     <message>
@@ -81,7 +81,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BitcoinBuck address</source>
+        <source>Sign a message to prove you own a Bitcoinbuck address</source>
         <translation>发送签名消息以证明您是该宇宙币地址的拥有者</translation>
     </message>
     <message>
@@ -96,7 +96,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinBuck address</source>
+        <source>Verify a message to ensure it was signed with a specified Bitcoinbuck address</source>
         <translation>进行消息验证，以确认该消息是被某一宇宙币地址签名的。</translation>
     </message>
     <message>
@@ -255,7 +255,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>BitcoinBuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoinbuck will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>宇宙币将关闭客户端软件以完成加密过程，完成加密后，请即时备份加密后的钱包。 请您谨记：钱包加密并不是万能的，电脑中毒，您的宇宙币还是有可能丢失。</translation>
     </message>
     <message>
@@ -301,7 +301,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitcoinBuckGUI</name>
+    <name>BitcoinbuckGUI</name>
         <message>
         <location filename="../bitcoinbuckgui.cpp" line="+257"/>
         <source>Sign &amp;message...</source>
@@ -372,7 +372,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinBuck</source>
+        <source>Show information about Bitcoinbuck</source>
         <translation>显示宇宙币的相关信息</translation>
     </message>
     <message>
@@ -424,12 +424,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Send coins to a BitcoinBuck address</source>
+        <source>Send coins to a Bitcoinbuck address</source>
         <translation>向一个宇宙币地址发送宇宙币</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BitcoinBuck</source>
+        <source>Modify configuration options for Bitcoinbuck</source>
         <translation>设置选项</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-186"/>
-        <source>BitcoinBuck</source>
+        <source>Bitcoinbuck</source>
         <translation>宇宙币</translation>
     </message>
     <message>
@@ -480,7 +480,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+168"/>
-        <source>&amp;About BitcoinBuck</source>
+        <source>&amp;About Bitcoinbuck</source>
         <translation>&amp;关于宇宙币</translation>
     </message>
     <message>
@@ -522,12 +522,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BitcoinBuck client</source>
+        <source>Bitcoinbuck client</source>
         <translation>宇宙币客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+69"/>
-        <source>%n active connection(s) to BitcoinBuck network</source>
+        <source>%n active connection(s) to Bitcoinbuck network</source>
         <translation>
 	<numerusform>%n 个到宇宙币网络的活动连接</numerusform>
 	</translation>
@@ -622,7 +622,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinBuck address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoinbuck address or malformed URI parameters.</source>
         <translation>URI无法解析! 可能是因为宇宙币地址无效或URI参数不正确。</translation>
     </message>
     <message>
@@ -657,7 +657,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinbuck.cpp" line="+109"/>
-        <source>A fatal error occurred. BitcoinBuck can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Bitcoinbuck can no longer continue safely and will quit.</source>
         <translation>发生致命错误. 宇宙币客户端的安全存在问题，将退出.</translation>
     </message>
 </context>
@@ -724,7 +724,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinBuck address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoinbuck address.</source>
         <translation>您输入的 &quot;%1&quot; 不是合法的宇宙币地址.</translation>
     </message>
     <message>
@@ -743,8 +743,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+419"/>
         <location line="+12"/>
-        <source>BitcoinBuck-Qt</source>
-        <translation>BitcoinBuck-Qt</translation>
+        <source>Bitcoinbuck-Qt</source>
+        <translation>Bitcoinbuck-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -806,12 +806,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinBuck after logging in to the system.</source>
+        <source>Automatically start Bitcoinbuck after logging in to the system.</source>
         <translation>系统启动后自动运行宇宙币客户端软件.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinBuck on system login</source>
+        <source>&amp;Start Bitcoinbuck on system login</source>
         <translation>启动时&amp;运行</translation>
     </message>
     <message>
@@ -831,7 +831,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinBuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Bitcoinbuck client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>在路由器上自动打开宇宙币端口——只有在您的路由器支持UPnP并且已经开启UPnP的情况下可用。</translation>
         
     </message>
@@ -842,7 +842,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BitcoinBuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Bitcoinbuck network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>使用SOCKS代理链接宇宙币网络(例如. 当使用Tor连接宇宙币网络时).</translation>
     </message>
     <message>
@@ -917,7 +917,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinBuck.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoinbuck.</source>
         <translation>此处设置界面语言重启客户端后生效.</translation>
     </message>
     <message>
@@ -932,7 +932,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BitcoinBuck addresses in the transaction list or not.</source>
+        <source>Whether to show Bitcoinbuck addresses in the transaction list or not.</source>
         <translation>交易列表中是否显示宇宙币地址.</translation>
     </message>
     <message>
@@ -969,7 +969,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinBuck.</source>
+        <source>This setting will take effect after restarting Bitcoinbuck.</source>
         <translation>重启宇宙币客户端后生效.</translation>
     </message>
     <message>
@@ -988,7 +988,7 @@ Address: %4
     <message>
         <location line="+33"/>
         <location line="+183"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinBuck network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoinbuck network after a connection is established, but this process has not completed yet.</source>
         <translation>显示的信息可能过期。，当客户端与宇宙币网络建立连接后，会自动进行同步，现在同步过程还没有完成。</translation>
     </message>
     <message>
@@ -1204,7 +1204,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinBuck-Qt help message to get a list with possible BitcoinBuck command-line options.</source>
+        <source>Show the Bitcoinbuck-Qt help message to get a list with possible Bitcoinbuck command-line options.</source>
         <translation>显示宇宙币帮助消息，获得宇宙币命令行命令.</translation>
     </message>
     <message>
@@ -1224,12 +1224,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinBuck - Debug window</source>
+        <source>Bitcoinbuck - Debug window</source>
         <translation>宇宙币 - 调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinBuck Core</source>
+        <source>Bitcoinbuck Core</source>
         <translation>宇宙币核心信息</translation>
     </message>
     <message>
@@ -1239,7 +1239,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinBuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Bitcoinbuck debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>打开当前数据文件夹下的调试日志，若调试日志文件很大，可能花费较长时间。</translation>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BitcoinBuck RPC console.</source>
+        <source>Welcome to the Bitcoinbuck RPC console.</source>
         <translation>欢迎使用宇宙币RPC控制台</translation>
     </message>
     <message>
@@ -1433,7 +1433,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a valid BitcoinBuck address</source>
+        <source>Enter a valid Bitcoinbuck address</source>
         <translation>输入有效的宇宙币地址</translation>
     </message>
 </context>
@@ -1494,7 +1494,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinBuck address</source>
+        <source>Sign the message to prove you own this Bitcoinbuck address</source>
         <translation>签名该消息以证明你拥有这个宇宙币地址</translation>
     </message>
     <message>
@@ -1526,7 +1526,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinBuck address</source>
+        <source>Verify the message to ensure it was signed with the specified Bitcoinbuck address</source>
         <translation>验证该消息是否由特定的宇宙币地址签名的</translation>
     </message>
     <message>
@@ -1537,7 +1537,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a valid BitcoinBuck address</source>
+        <source>Enter a valid Bitcoinbuck address</source>
         <translation>输入有效的宇宙币地址</translation>
     </message>
     <message>
@@ -1547,7 +1547,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinBuck signature</source>
+        <source>Enter Bitcoinbuck signature</source>
         <translation>输入宇宙币签名</translation>
     </message>
     <message>
@@ -2113,7 +2113,7 @@ Address: %4
     <name>bitcoinbuck-core</name>
     <message>
         <location filename="../bitcoinbuckstrings.cpp" line="+82"/>
-        <source>BitcoinBuck version</source>
+        <source>Bitcoinbuck version</source>
         <translation>宇宙币版本</translation>
     </message>
     <message>
@@ -2143,13 +2143,13 @@ Address: %4
     </message>
     <message>
         <location line="+23"/>
-        <source>Specify configuration file (default: BitcoinBuck.conf)</source>
-        <translation>制定配置文件(默认: BitcoinBuck.conf)</translation>
+        <source>Specify configuration file (default: Bitcoinbuck.conf)</source>
+        <translation>制定配置文件(默认: Bitcoinbuck.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: BitcoinBuckd.pid)</source>
-        <translation>指定pid文件(默认: BitcoinBuckd.pid)</translation>
+        <source>Specify pid file (default: Bitcoinbuckd.pid)</source>
+        <translation>指定pid文件(默认: Bitcoinbuckd.pid)</translation>
     </message>
     <message>
         <location line="-47"/>
@@ -2303,8 +2303,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinBuck will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinBuck will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2383,8 +2383,8 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the BitcoinBuck Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the Bitcoinbuck Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2538,13 +2538,13 @@ Address: %4
     </message>
     <message>
         <location line="-131"/>
-        <source>Cannot obtain a lock on data directory %s.  BitcoinBuck is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  BitcoinBuck is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Bitcoinbuck is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  Bitcoinbuck is probably already running.</translation>
     </message>
     <message>
         <location line="+57"/>
-        <source>BitcoinBuck</source>
-        <translation>BitcoinBuck</translation>
+        <source>Bitcoinbuck</source>
+        <translation>Bitcoinbuck</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2578,13 +2578,13 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinBuck</source>
-        <translation>加载钱包文件wallet.dat失败: 钱包需要新版本的BTCB2客户端才能运行</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoinbuck</source>
+        <translation>加载钱包文件wallet.dat失败: 钱包需要新版本的BIB客户端才能运行</translation>
     </message>
     <message>
         <location line="+73"/>
-        <source>Wallet needed to be rewritten: restart BitcoinBuck to complete</source>
-        <translation>Wallet needed to be rewritten: restart BitcoinBuck to complete</translation>
+        <source>Wallet needed to be rewritten: restart Bitcoinbuck to complete</source>
+        <translation>Wallet needed to be rewritten: restart Bitcoinbuck to complete</translation>
     </message>
     <message>
         <location line="-75"/>
@@ -2653,8 +2653,8 @@ Address: %4
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BitcoinBuck is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. BitcoinBuck is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Bitcoinbuck is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Bitcoinbuck is probably already running.</translation>
     </message>
     <message>
         <location line="+55"/>

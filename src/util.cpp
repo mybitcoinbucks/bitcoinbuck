@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The BitcoinBuck developers
+// Copyright (c) 2009-2012 The Bitcoinbuck developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -960,7 +960,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "BitcoinBuck";
+    const char* pszModule = "Bitcoinbuck";
 #endif
     if (pex)
         return strprintf(
@@ -1009,13 +1009,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinBuck
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinBuck
-    // Mac: ~/Library/Application Support/BitcoinBuck
-    // Unix: ~/.BitcoinBuck
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoinbuck
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoinbuck
+    // Mac: ~/Library/Application Support/Bitcoinbuck
+    // Unix: ~/.Bitcoinbuck
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitcoinBuck";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Bitcoinbuck";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1027,10 +1027,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "BitcoinBuck";
+    return pathRet / "Bitcoinbuck";
 #else
     // Unix
-    return pathRet / ".BitcoinBuck";
+    return pathRet / ".Bitcoinbuck";
 #endif
 #endif
 }
@@ -1072,7 +1072,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "BitcoinBuck.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "Bitcoinbuck.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1103,7 +1103,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "BitcoinBuckd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "Bitcoinbuckd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1243,10 +1243,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong BitcoinBuck will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoinbuck will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("BitcoinBuck"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("Bitcoinbuck"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

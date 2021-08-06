@@ -10,12 +10,12 @@ QT_END_NAMESPACE
 
 /** Widget for entering bitcoinbuck amounts.
   */
-class BitcoinBuckAmountField: public QWidget
+class BitcoinbuckAmountField: public QWidget
 {
     Q_OBJECT
     Q_PROPERTY(qint64 value READ value WRITE setValue NOTIFY textChanged USER true)
 public:
-    explicit BitcoinBuckAmountField(QWidget *parent = 0);
+    explicit BitcoinbuckAmountField(QWidget *parent = 0);
 
     qint64 value(bool *valid=0) const;
     void setValue(qint64 value);

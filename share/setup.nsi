@@ -1,4 +1,4 @@
-Name BitcoinBuck
+Name Bitcoinbuck
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,11 +6,11 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.3.0
-!define COMPANY "BitcoinBuck project"
+!define COMPANY "Bitcoinbuck project"
 !define URL http://
 
 # MUI Symbol Definitions
-!define MUI_ICON "../share/pixmaps/BitcoinBuck.ico"
+!define MUI_ICON "../share/pixmaps/Bitcoinbuck.ico"
 !define MUI_WELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER BitcoinBuck
-!define MUI_FINISHPAGE_RUN $INSTDIR\BitcoinBuck-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Bitcoinbuck
+!define MUI_FINISHPAGE_RUN $INSTDIR\Bitcoinbuck-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile BitcoinBuck-0.3.0-win32-setup.exe
-InstallDir $PROGRAMFILES\BitcoinBuck
+OutFile Bitcoinbuck-0.3.0-win32-setup.exe
+InstallDir $PROGRAMFILES\Bitcoinbuck
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.3.0.0
-VIAddVersionKey ProductName BitcoinBuck
+VIAddVersionKey ProductName Bitcoinbuck
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,18 +66,18 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/BitcoinBuck-qt.exe
+    File ../release/Bitcoinbuck-qt.exe
     File /oname=license.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File ../src/BitcoinBuckd.exe
+    File ../src/Bitcoinbuckd.exe
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-BitcoinBuck executable and locales:
-    Delete /REBOOTOK $INSTDIR\BitcoinBuck.exe
+    # Remove old wxwidgets-based-Bitcoinbuck executable and locales:
+    Delete /REBOOTOK $INSTDIR\Bitcoinbuck.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\BitcoinBuck.lnk" $INSTDIR\BitcoinBuck-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall BitcoinBuck.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Bitcoinbuck.lnk" $INSTDIR\Bitcoinbuck-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Bitcoinbuck.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -99,11 +99,11 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
 
-    # BitcoinBuck: URI handling disabled for 0.6.0
-        WriteRegStr HKCR "BitcoinBuck" "URL Protocol" ""
-        WriteRegStr HKCR "BitcoinBuck" "" "URL:BitcoinBuck"
-        WriteRegStr HKCR "BitcoinBuck\DefaultIcon" "" $INSTDIR\BitcoinBuck-qt.exe
-        WriteRegStr HKCR "BitcoinBuck\shell\open\command" "" '"$INSTDIR\BitcoinBuck-qt.exe" "$$1"'
+    # Bitcoinbuck: URI handling disabled for 0.6.0
+        WriteRegStr HKCR "Bitcoinbuck" "URL Protocol" ""
+        WriteRegStr HKCR "Bitcoinbuck" "" "URL:Bitcoinbuck"
+        WriteRegStr HKCR "Bitcoinbuck\DefaultIcon" "" $INSTDIR\Bitcoinbuck-qt.exe
+        WriteRegStr HKCR "Bitcoinbuck\shell\open\command" "" '"$INSTDIR\Bitcoinbuck-qt.exe" "$$1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -121,7 +121,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\BitcoinBuck-qt.exe
+    Delete /REBOOTOK $INSTDIR\Bitcoinbuck-qt.exe
     Delete /REBOOTOK $INSTDIR\license.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -131,9 +131,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall BitcoinBuck.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\BitcoinBuck.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\BitcoinBuck.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Bitcoinbuck.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Bitcoinbuck.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Bitcoinbuck.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -141,7 +141,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "BitcoinBuck"
+    DeleteRegKey HKCR "Bitcoinbuck"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

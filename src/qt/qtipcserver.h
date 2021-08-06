@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define BitcoinBuck-Qt message queue name
-#define BITCOINBUCKURI_QUEUE_NAME "BitcoinBuckURI"
+// Define Bitcoinbuck-Qt message queue name
+#define BITCOINBUCKURI_QUEUE_NAME "BitcoinbuckURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);

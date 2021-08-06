@@ -22,7 +22,7 @@ public:
     qint64 amount;
 };
 
-/** Interface to BitcoinBuck wallet from Qt view code. */
+/** Interface to Bitcoinbuck wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT

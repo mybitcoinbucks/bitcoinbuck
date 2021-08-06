@@ -51,9 +51,9 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 sub.credit = txout.nValue;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address))
                 {
-                    // Received by BitcoinBuck Address
+                    // Received by Bitcoinbuck Address
                     sub.type = TransactionRecord::RecvWithAddress;
-                    sub.address = CBitcoinBuckAddress(address).ToString();
+                    sub.address = CBitcoinbuckAddress(address).ToString();
                 }
                 else
                 {
@@ -112,9 +112,9 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 CTxDestination address;
                 if (ExtractDestination(txout.scriptPubKey, address))
                 {
-                    // Sent to BitcoinBuck Address
+                    // Sent to Bitcoinbuck Address
                     sub.type = TransactionRecord::SendToAddress;
-                    sub.address = CBitcoinBuckAddress(address).ToString();
+                    sub.address = CBitcoinbuckAddress(address).ToString();
                 }
                 else
                 {

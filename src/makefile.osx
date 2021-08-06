@@ -1,5 +1,5 @@
 # -*- mode: Makefile; -*-
-# Copyright (c) 2011 BitcoinBuck Developers
+# Copyright (c) 2011 Bitcoinbuck Developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,21 +7,17 @@
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=llvm-g++
-DEPSDIR=/usr/local
+DEPSDIR=/opt/local
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
  -I"$(DEPSDIR)/include" \
- -I"$(DEPSDIR)/include/db48" \
- -I"$(DEPSDIR)/iCellar/openssl/1.0.1f/include" \
- -I"$(DEPSDIR)/Cellar/boost/1.55.0/include"
+ -I"$(DEPSDIR)/include/db48"
 
 LIBPATHS= \
  -L"$(DEPSDIR)/lib" \
- -L"$(DEPSDIR)/lib/db48" \
- -L"$(DEPSDIR)/Cellar/openssl/1.0.1f/lib" \
- -L"$(DEPSDIR)/Cellar/boost/1.55.0/lib"
+ -L"$(DEPSDIR)/lib/db48"
 
 USE_UPNP:=1
 USE_IPV6:=1
@@ -64,7 +60,7 @@ ifdef RELEASE
 # Compile for maximum compatibility and smallest size.
 # This requires that dependencies are compiled
 # the same way.
-#CFLAGS = -stdlib=libstdc++ -mmacosx-version-min=10.5 -arch x86_64 -O3 -msse2
+CFLAGS = -mmacosx-version-min=10.5 -arch x86_64 -O3 -msse2
 else
 CFLAGS = -g -msse2
 endif

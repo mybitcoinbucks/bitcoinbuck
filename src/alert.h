@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The BitcoinBuck developers
+// Copyright (c) 2009-2012 The Bitcoinbuck developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,10 +13,10 @@
 #include "util.h"
 
 
-static const char* pszMainKey = "04f4d48f5181fd4bcb85ff1b2ae07e94316a6d5d417b00b09c38273622c64b80d5926f4df74b775bc845a628b369a226008a686a75ba515b669c5689aa79b8cb37";
+static const char* pszMainKey = "043fa441fd4203d03f5df2b75ea14e36f20d39f43e7a61aa7552ab9bcd7ecb0e77a3be4585b13fcdaa22ef6e51f1ff6f2929bec2494385b086fb86610e33193195";
 
 // TestNet alerts pubKey
-static const char* pszTestKey = "04e3573d29feb5503d6ae6322120033186f9f6fd52674e5da64bcf35e3a7a313d3246ccdf2a93ef709a2e61af0e3ed457951315cd2ace38afd57b6392e258f9178";
+static const char* pszTestKey = "0471dc165db490094d35cde15b1f5d755fa6ad6f2b5ed0f340e3f17f57389c3c2af113a8cbcc885bde73305a553b5640c83021128008ddf882e856336269080496";
 
 
 class CNode;

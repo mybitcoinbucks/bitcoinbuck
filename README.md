@@ -1,4 +1,4 @@
-[ANN][BTCB2]BitcoinBuck-PoW/PoS |Transaction Comment|Fair start|0 Premine
+[ANN][BIB]Bitcoinbuck-PoW/PoS |Transaction Comment|Fair start|0 Premine
 
 Version [1.9.0]
 
@@ -19,11 +19,11 @@ For Linux version or MacOS version, you can get the souce code form https://gith
 Version [1.4]
 https://raw.github.com/bitcoinbuck/bitcoinbuck/master/src/qt/res/icons/bitcoinbuck.png
 
-[Announcing BitcoinBuck - BTCB2, the latest and most innovative PoW/PoS coin! Fair start and zero premined![/font][/size]
+[Announcing Bitcoinbuck - BIB, the latest and most innovative PoW/PoS coin! Fair start and zero premined![/font][/size]
 [font=Garamond][size=15pt]
-BitcoinBuck combines the best from Bitcoin/Litecoin/Novacoin/Florincoin, it uses both Proof of Work and Proof of Stake. This provides good resistence to 51% attack. It also supports transaction comments like Florincoin, so when you send transactions to the cosmos, you and your receiver won't be lost! Moreover, this coin has very low transaction fees (only 0.1% of most other coins), and fast transaction confirmation time (1.5 min). It provides steady coin supply at 3.5 coins per block.
+Bitcoinbuck combines the best from Bitcoin/Litecoin/Novacoin/Florincoin, it uses both Proof of Work and Proof of Stake. This provides good resistence to 51% attack. It also supports transaction comments like Florincoin, so when you send transactions to the cosmos, you and your receiver won't be lost! Moreover, this coin has very low transaction fees (only 0.1% of most other coins), and fast transaction confirmation time (1.5 min). It provides steady coin supply at 3.5 coins per block.
 
-BitcoinBuck has a fair start and zero premined, making it one of the very best of the alt coins exist today.
+Bitcoinbuck has a fair start and zero premined, making it one of the very best of the alt coins exist today.
 
 
 Features:
@@ -48,7 +48,7 @@ Specifications:
 - Mine confirm: 30
 - Total number of coins 1000000000 (1 billion) 
 - fair start, no premine
-- port: Connection: 4321 and RPC Port:4321 
+- port: Connection: 19990 and RPC Port:19991 
 
 
 Download:
@@ -75,14 +75,14 @@ Blockchain Explorer:
 - to be added -
 
 
-Sample BitcoinBuck.conf:
+Sample Bitcoinbuck.conf:
 
 [code]listen=1
 daemon=1
 server=1
 rpcuser=**Yourusername**
 rpcpassword=**Yourpassword**
-rpcport=4321
+rpcport=19991
 rpcconnect=127.0.0.1
 addnode=198.211.17.160
 addnode=173.254.207.107
@@ -93,7 +93,7 @@ addnode=118.250.247.107[/code]
 Getting Started:
 
 1. Start up bitcoinbuck-qt, wait for it to load, then exit.
-2. Put bitcoinbuck.conf (see sample file above) in your c:/users/**yourcomputername**/Appdata/Roaming/BitcoinBuck
+2. Put bitcoinbuck.conf (see sample file above) in your c:/users/**yourcomputername**/Appdata/Roaming/Bitcoinbuck
 3. restart bitcoinbuck-qt, and you should connect and sync.
 4. For solo mining, launch cgminer or the mining program you use and begin mining.
-      cgminer ex: cgminer.exe --scrypt -o localhost:4321 -u **yourusername** -p **password** (without **)
+      cgminer ex: cgminer.exe --scrypt -o localhost:19991 -u **yourusername** -p **password** (without **)

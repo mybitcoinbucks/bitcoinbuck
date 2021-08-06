@@ -1,9 +1,9 @@
-Building BitcoinBuck
+Building Bitcoinbuck
 
-See doc/readme-qt.rst for instructions on building BitcoinBuck QT,
+See doc/readme-qt.rst for instructions on building Bitcoinbuck QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BitcoinBuck.
+implementation of Bitcoinbuck.
 
 See doc/build-*.txt for instructions on building bitcoinbuckd,
 the intended-for-services, no-graphical-interface, reference
-implementation of BitcoinBuck.
+implementation of Bitcoinbuck.
